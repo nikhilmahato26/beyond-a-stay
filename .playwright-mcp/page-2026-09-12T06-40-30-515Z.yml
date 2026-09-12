@@ -1,0 +1,228 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: "#home"
+        - img "Mermaid Marari emblem" [ref=e7]
+        - img "Beyond a Stay" [ref=e8]
+      - navigation [ref=e9]:
+        - link "About" [ref=e10] [cursor=pointer]:
+          - /url: "#about"
+        - link "Rooms" [ref=e11] [cursor=pointer]:
+          - /url: "#rooms"
+        - link "Amenities" [ref=e12] [cursor=pointer]:
+          - /url: "#amenities"
+        - link "Nearby" [ref=e13] [cursor=pointer]:
+          - /url: "#nearby"
+        - link "Gallery" [ref=e14] [cursor=pointer]:
+          - /url: "#gallery"
+        - link "Contact" [ref=e15] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Book on WhatsApp" [ref=e17] [cursor=pointer]:
+        - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20staying%20at%20Mermaid%20Marari.
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading [level=1] [ref=e24]:
+          - text: Beyond a Stay,
+          - emphasis [ref=e25]: Beside
+          - text: Marari Beach
+        - paragraph [ref=e26]: A family-run homestay an 8-minute walk from one of Kerala's finest beaches, built for slow mornings and quiet evenings.
+        - generic [ref=e27]:
+          - link "Book on WhatsApp" [ref=e28] [cursor=pointer]:
+            - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20staying%20at%20Mermaid%20Marari.
+          - link "View Rooms" [ref=e31] [cursor=pointer]:
+            - /url: "#rooms"
+      - img "Sunlit shoreline near Marari Beach, Kerala" [ref=e35]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Comfort, Kept Simple" [level=2] [ref=e41]
+        - paragraph [ref=e42]: "Mermaid Marari is a small, family-run homestay in Mararikulam, built around a pristine beach and a slower pace of life. Every room is designed for comfort first: private, air-conditioned, and just steps from the garden."
+      - generic [ref=e43]:
+        - figure [ref=e45]:
+          - img "Garden courtyard typical of homestays along the Kerala coast" [ref=e46]
+        - generic [ref=e48]:
+          - heading "Private & Air-Conditioned" [level=3] [ref=e49]
+          - paragraph [ref=e50]: Family rooms with private bathrooms, balconies and garden views, each fitted with air conditioning and a quiet, soundproofed interior.
+        - generic [ref=e52]:
+          - heading "Home-Style Breakfast" [level=3] [ref=e53]
+          - paragraph [ref=e54]: Continental, American, English, vegetarian and vegan breakfast, served fresh in our dining area each morning.
+        - generic [ref=e56]:
+          - heading "Garden & Free Parking" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Bicycle parking, free private parking, and a garden courtyard for slow afternoons and quiet evenings.
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - heading "Rooms Built for Rest" [level=2] [ref=e62]
+        - paragraph [ref=e63]: Two room types, each available with or without air conditioning, sized and priced for however long you plan to stay.
+      - generic [ref=e64]:
+        - article [ref=e66]:
+          - img "Budget Double Room" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]: AC & Non-AC
+            - heading "Budget Double Room" [level=3] [ref=e71]
+            - paragraph [ref=e72]: A minimalist double room with warm wooden furnishings and a private bathroom, kept honest and unfussy for travellers who just need a comfortable place to rest.
+            - list [ref=e73]:
+              - listitem [ref=e74]: Private bathroom
+              - listitem [ref=e75]: Air conditioning
+              - listitem [ref=e76]: Fan
+              - listitem [ref=e77]: Non-smoking
+            - link "Book on WhatsApp" [ref=e78] [cursor=pointer]:
+              - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20check%20availability%20for%20the%20Budget%20Double%20Room%20at%20Mermaid%20Marari.
+        - article [ref=e82]:
+          - img "Double Room with Balcony" [ref=e84]
+          - generic [ref=e85]:
+            - generic [ref=e86]: AC & Non-AC
+            - heading "Double Room with Balcony" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Your private sanctuary, flooded with natural light and cooled by the sea breeze through a private balcony that opens onto the garden.
+            - list [ref=e89]:
+              - listitem [ref=e90]: Private balcony
+              - listitem [ref=e91]: Private bathroom
+              - listitem [ref=e92]: Air conditioning
+              - listitem [ref=e93]: Soundproofed
+            - link "Book on WhatsApp" [ref=e94] [cursor=pointer]:
+              - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20check%20availability%20for%20the%20Double%20Room%20with%20Balcony%20at%20Mermaid%20Marari.
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - heading "Everything You Actually Need" [level=2] [ref=e100]
+        - paragraph [ref=e101]: No spa menu, no conference hall. Just the essentials, done well.
+      - generic [ref=e102]:
+        - generic [ref=e103]: Free private parking
+        - generic [ref=e110]: Private bathrooms
+        - generic [ref=e116]: Family rooms
+        - generic [ref=e124]: Air conditioning
+        - generic [ref=e140]: Garden & outdoor seating
+        - generic [ref=e146]: Bicycle parking
+        - generic [ref=e154]: Soundproofed rooms
+        - generic [ref=e161]: Free toiletries
+        - generic [ref=e167]: Airport shuttle (extra charge)
+        - generic [ref=e172]: Non-smoking rooms
+      - generic [ref=e180]:
+        - paragraph [ref=e181]: Breakfast options
+        - list [ref=e182]:
+          - listitem [ref=e183]: Continental
+          - listitem [ref=e184]: American
+          - listitem [ref=e185]: Full English / Irish
+          - listitem [ref=e186]: Vegetarian
+          - listitem [ref=e187]: Vegan
+    - generic [ref=e188]:
+      - generic [ref=e190]:
+        - heading "Worth Wandering To" [level=2] [ref=e191]
+        - paragraph [ref=e192]: Marari Beach is right outside, and Alappuzha's backwaters, temples and heritage sites are all within a short drive.
+      - generic [ref=e194]:
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: 8-minute walk
+          - paragraph [ref=e201]: Marari Beach
+        - generic [ref=e206]:
+          - paragraph [ref=e207]: 1.5 km
+          - paragraph [ref=e208]: Mararikulam Mahadeva Temple
+        - generic [ref=e213]:
+          - paragraph [ref=e214]: 3.5 km
+          - paragraph [ref=e215]: Kripasanam Church
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: 4 km
+          - paragraph [ref=e222]: Elephant & Camel Safari
+        - generic [ref=e227]:
+          - paragraph [ref=e228]: 5 km
+          - paragraph [ref=e229]: International Coir Museum
+        - generic [ref=e234]:
+          - paragraph [ref=e235]: 7 km
+          - paragraph [ref=e236]: St. Andrew's Basilica, Arthunkal
+        - generic [ref=e241]:
+          - paragraph [ref=e242]: 9 km
+          - paragraph [ref=e243]: Pathiramanal Island
+        - generic [ref=e248]:
+          - paragraph [ref=e249]: 13 km
+          - paragraph [ref=e250]: Alleppey Backwaters
+        - generic [ref=e255]:
+          - paragraph [ref=e256]: 27 km
+          - paragraph [ref=e257]: Kumarakom Bird Sanctuary
+        - generic [ref=e262]:
+          - paragraph [ref=e263]: 69 km
+          - paragraph [ref=e264]: Cochin International Airport
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - heading "A Feel for Marari" [level=2] [ref=e268]
+        - paragraph [ref=e269]: The rooms, the coast, and the everyday textures of the village around them.
+      - generic [ref=e270]:
+        - generic:
+          - generic:
+            - img "Minimalist bedroom with wooden furniture at Mermaid Marari"
+        - generic:
+          - generic:
+            - img "Cozy bedroom with balcony at Mermaid Marari"
+        - generic:
+          - generic:
+            - img "Sandy shoreline near Marari Beach"
+        - generic:
+          - generic:
+            - img "Coconut palms along the Kerala coast"
+        - generic:
+          - generic:
+            - img "Backwater canal near Alappuzha"
+        - generic:
+          - generic:
+            - img "Fishing boats on Marari Beach"
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - heading "Come Find Us" [level=2] [ref=e276]
+          - paragraph [ref=e277]: Reach out on WhatsApp for the fastest reply, or use the details below.
+        - list [ref=e278]:
+          - listitem [ref=e279]:
+            - generic [ref=e283]: Mararikulam Beach Road, Alappuzha, Kerala 688523
+          - listitem [ref=e284]:
+            - link "+91 79077 14598" [ref=e287] [cursor=pointer]:
+              - /url: tel:+917907714598
+          - listitem [ref=e288]:
+            - link "holidays@mermaidmarari.com" [ref=e292] [cursor=pointer]:
+              - /url: mailto:holidays@mermaidmarari.com
+          - listitem [ref=e293]:
+            - link "@mermaidmarari" [ref=e298] [cursor=pointer]:
+              - /url: https://www.instagram.com/mermaidmarari
+        - link "Book on WhatsApp" [ref=e299] [cursor=pointer]:
+          - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20staying%20at%20Mermaid%20Marari.
+      - iframe [ref=e303]
+  - contentinfo [ref=e304]:
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]:
+          - img "Mermaid Marari emblem" [ref=e308]
+          - paragraph [ref=e309]: A family-run homestay by Marari Beach, Mararikulam, Kerala.
+        - generic [ref=e310]:
+          - paragraph [ref=e311]: Explore
+          - list [ref=e312]:
+            - listitem [ref=e313]:
+              - link "About" [ref=e314] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e315]:
+              - link "Rooms" [ref=e316] [cursor=pointer]:
+                - /url: "#rooms"
+            - listitem [ref=e317]:
+              - link "Amenities" [ref=e318] [cursor=pointer]:
+                - /url: "#amenities"
+            - listitem [ref=e319]:
+              - link "Nearby" [ref=e320] [cursor=pointer]:
+                - /url: "#nearby"
+            - listitem [ref=e321]:
+              - link "Gallery" [ref=e322] [cursor=pointer]:
+                - /url: "#gallery"
+            - listitem [ref=e323]:
+              - link "Contact" [ref=e324] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=e325]:
+          - paragraph [ref=e326]: Contact
+          - list [ref=e327]:
+            - listitem [ref=e328]: Mararikulam Beach Road, Alappuzha, Kerala 688523
+            - listitem [ref=e329]:
+              - link "+91 79077 14598" [ref=e330] [cursor=pointer]:
+                - /url: tel:+917907714598
+            - listitem [ref=e331]:
+              - link "holidays@mermaidmarari.com" [ref=e332] [cursor=pointer]:
+                - /url: mailto:holidays@mermaidmarari.com
+        - generic [ref=e333]:
+          - paragraph [ref=e334]: Follow
+          - link "Mermaid Marari on Instagram" [ref=e335] [cursor=pointer]:
+            - /url: https://www.instagram.com/mermaidmarari
+      - generic [ref=e340]: © 2026 Mermaid Marari. All rights reserved.
+  - link "Book on WhatsApp" [ref=e341] [cursor=pointer]:
+    - /url: https://wa.me/918089714598?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20staying%20at%20Mermaid%20Marari.

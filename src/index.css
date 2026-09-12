@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* Display serif: heritage, editorial feel for a coastal Kerala homestay. */
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/500-italic.css";
+@import "@fontsource/cormorant-garamond/600-italic.css";
+
+/* Body / UI sans, keeps things legible and modern next to the serif. */
+@import "@fontsource/outfit/400.css";
+@import "@fontsource/outfit/500.css";
+@import "@fontsource/outfit/600.css";
+@import "@fontsource/outfit/700.css";
+
+@theme {
+  --color-forest: #1e3f37;
+  --color-forest-dark: #142924;
+  --color-forest-deep: #0e1c18;
+  --color-forest-light: #2f5a4d;
+  --color-gold: #d3b36a;
+  --color-gold-light: #e6d3a3;
+  --color-gold-dark: #ad8a4a;
+  --color-bone: #f7f3ea;
+  --color-bone-dim: #efe9db;
+  --color-ink: #1c1a15;
+
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Outfit", "Helvetica Neue", Arial, sans-serif;
+}
+
+/*
+  Brand lock: this site keeps one deliberate palette (forest green + gold on
+  bone) rather than a light/dark toggle. The brand identity itself is a dark
+  green and gold mark, so the "dark" register already lives inside the page
+  (hero, footer, CTA bands) rather than behind a system preference switch.
+*/
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-bone);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-forest-deep);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
