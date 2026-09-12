@@ -61,6 +61,9 @@ export const amenities = [
   { icon: "Droplets", label: "Free toiletries" },
   { icon: "PlaneTakeoff", label: "Airport shuttle (extra charge)" },
   { icon: "BellOff", label: "Non-smoking rooms" },
+  { icon: "Tv", label: "TV (on request)" },
+  { icon: "Flame", label: "Geyser (on request)" },
+  { icon: "Coffee", label: "Electric kettle (on request)" },
 ] as const;
 
 export const diningNotes = [

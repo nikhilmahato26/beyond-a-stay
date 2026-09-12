@@ -3,10 +3,13 @@ import {
   BellOff,
   Bike,
   Car,
+  Coffee,
   Droplets,
+  Flame,
   PlaneTakeoff,
   Snowflake,
   Trees,
+  Tv,
   Users,
   VolumeX,
   type LucideIcon,
@@ -25,6 +28,9 @@ const iconMap: Record<string, LucideIcon> = {
   Droplets,
   PlaneTakeoff,
   BellOff,
+  Tv,
+  Flame,
+  Coffee,
 };
 
 export function Amenities() {
