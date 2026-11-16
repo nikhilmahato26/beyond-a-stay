@@ -2,8 +2,7 @@ import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { business } from "../data/site";
 
-const heroImage =
-  "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/Beach-desktop-wallpaper-4K-with-a-pristine-tr.jpeg/:/rs=w:1600";
+const heroImage = "/images/villa-front-courtyard.jpg";
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -54,7 +53,7 @@ export function Hero() {
         >
           <img
             src={heroImage}
-            alt="Sunlit shoreline near Marari Beach, Kerala"
+            alt="Mermaid Marari homestay villa with lush coconut palms and paved courtyard"
             className="h-full w-full object-cover"
             loading="eager"
           />

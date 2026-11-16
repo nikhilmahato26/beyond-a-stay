@@ -37,8 +37,8 @@ export function About() {
             <figure className="h-full overflow-hidden rounded-3xl bg-forest-dark">
               <img
                 src={propertyImage}
-                alt="Mermaid Marari homestay building and gated courtyard"
-                className="h-64 w-full object-cover object-top lg:h-full"
+                alt="Mermaid Marari homestay entrance and gated courtyard with official signboard"
+                className="h-64 w-full object-cover object-center lg:h-full"
               />
             </figure>
           </Reveal>

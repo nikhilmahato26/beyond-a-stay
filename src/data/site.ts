@@ -27,15 +27,30 @@ export const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
-export const rooms = [
+export interface RoomType {
+  id: string;
+  name: string;
+  variant: string;
+  description: string;
+  image: string;
+  images: string[];
+  features: string[];
+}
+
+export const rooms: RoomType[] = [
   {
     id: "budget-double",
     name: "Budget Double Room",
     variant: "AC & Non-AC",
     description:
       "A minimalist double room with warm wooden furnishings and a private bathroom, kept honest and unfussy for travellers who just need a comfortable place to rest.",
-    image:
-      "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/WhatsApp%20Image%202026-05-12%20at%204.08.19%20PM%20(1).jpeg/:/rs=w:1200,cg:true",
+    image: "/images/bedroom-ac-budget.jpg",
+    images: [
+      "/images/bedroom-ac-budget.jpg",
+      "/images/bedroom-bright-comfort.jpg",
+      "/images/bedroom-spacious-view.jpg",
+      "/images/bathroom-shower.jpg",
+    ],
     features: ["Private bathroom", "Air conditioning", "Fan", "Non-smoking"],
   },
   {
@@ -44,8 +59,13 @@ export const rooms = [
     variant: "AC & Non-AC",
     description:
       "Your private sanctuary, flooded with natural light and cooled by the sea breeze through a private balcony that opens onto the garden.",
-    image:
-      "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/WhatsApp%20Image%202026-05-12%20at%204.08.20%20PM%20(1).jpeg/:/rs=w:1200,cg:true",
+    image: "/images/balcony-veranda.jpg",
+    images: [
+      "/images/balcony-veranda.jpg",
+      "/images/bedroom-deluxe-double.jpg",
+      "/images/bedroom-blue-linen.jpg",
+      "/images/washroom-vanity.jpg",
+    ],
     features: ["Private balcony", "Private bathroom", "Air conditioning", "Soundproofed"],
   },
 ];
@@ -87,22 +107,87 @@ export const attractions = [
   { name: "Cochin International Airport", distance: "69 km" },
 ];
 
-export const propertyImage =
-  "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/Content-Creator-Project.png/:/rs=w:1000";
+export const propertyImage = "/images/exterior-gate.jpg";
 
-export const galleryImages = [
-  { src: propertyImage, alt: "Mermaid Marari homestay building and gated courtyard" },
+export interface GalleryItem {
+  src: string;
+  alt: string;
+  title: string;
+  category: "rooms" | "outdoors" | "bathrooms";
+}
+
+export const galleryImages: GalleryItem[] = [
   {
-    src: "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/WhatsApp%20Image%202026-05-12%20at%204.08.19%20PM%20(1).jpeg/:/cr=t:0%25,l:4.82%25,w:88.63%25,h:100%25/rs=w:900",
-    alt: "Minimalist bedroom with wooden furniture at Mermaid Marari",
+    src: "/images/exterior-gate.jpg",
+    alt: "Mermaid Marari entrance gate, front driveway and official sign board",
+    title: "Entrance & Gated Courtyard",
+    category: "outdoors",
   },
   {
-    src: "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/WhatsApp%20Image%202026-05-12%20at%204.08.20%20PM%20(1).jpeg/:/cr=t:47.29%25,l:0%25,w:100%25,h:50.11%25/rs=w:900",
-    alt: "Cozy bedroom with balcony at Mermaid Marari",
+    src: "/images/villa-front-courtyard.jpg",
+    alt: "Two-story white homestay villa with palm trees, steps and access ramp",
+    title: "The Villa & Front Courtyard",
+    category: "outdoors",
   },
   {
-    src: "https://img1.wsimg.com/isteam/ip/9f83ecb8-d4ba-4c37-9b41-bb2f2c755dd3/Beach-desktop-wallpaper-4K-with-a-pristine-tr.jpeg/:/rs=w:900",
-    alt: "Shoreline near Marari Beach, an 8-minute walk from the homestay",
+    src: "/images/balcony-veranda.jpg",
+    alt: "First-floor open balcony veranda with handcrafted wooden seating overlooking palm trees",
+    title: "First-Floor Balcony Veranda",
+    category: "outdoors",
+  },
+  {
+    src: "/images/veranda-sitout.jpg",
+    alt: "Ground-floor entrance sit-out with wooden bench and textured terracotta laterite wall",
+    title: "Ground-Floor Porch Sit-Out",
+    category: "outdoors",
+  },
+  {
+    src: "/images/bedroom-deluxe-double.jpg",
+    alt: "Spacious deluxe bedroom with wooden double bed, work desk, wardrobe, and modern lighting",
+    title: "Deluxe Double Bedroom",
+    category: "rooms",
+  },
+  {
+    src: "/images/bedroom-ac-budget.jpg",
+    alt: "Air-conditioned double bedroom with work desk, flat-screen TV, and sheer curtains",
+    title: "Budget Double AC Room",
+    category: "rooms",
+  },
+  {
+    src: "/images/bedroom-blue-linen.jpg",
+    alt: "Double bed with sea-blue linens, folded bath towels, and vanity corridor view",
+    title: "Double Room with Blue Linens",
+    category: "rooms",
+  },
+  {
+    src: "/images/bedroom-bright-comfort.jpg",
+    alt: "Bright double bedroom with crisp white linens, TV, wardrobe, and study desk",
+    title: "Bright Comfort Double Room",
+    category: "rooms",
+  },
+  {
+    src: "/images/bedroom-cozy-stay.jpg",
+    alt: "Cozy guest room with colorful quilt runner, split air conditioning, and TV",
+    title: "Cozy Guest Bedroom",
+    category: "rooms",
+  },
+  {
+    src: "/images/bedroom-spacious-view.jpg",
+    alt: "Spacious bedroom interior with wooden dining/work table and full-length mirror wardrobe",
+    title: "Spacious Room Interior",
+    category: "rooms",
+  },
+  {
+    src: "/images/bathroom-shower.jpg",
+    alt: "Clean, modern private bathroom with overhead shower, fixtures, and bidet spray",
+    title: "Private En-Suite Bathroom",
+    category: "bathrooms",
+  },
+  {
+    src: "/images/washroom-vanity.jpg",
+    alt: "Washbasin vanity area with round LED illuminated mirror and turquoise vanity cabinet",
+    title: "Washbasin Vanity & LED Mirror",
+    category: "bathrooms",
   },
 ];
 
