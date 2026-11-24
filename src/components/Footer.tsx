@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <img src={logo} alt="Mermaid Marari emblem" className="h-14 w-14" />
             <p className="mt-4 max-w-[26ch] text-sm leading-relaxed text-bone/60">
-              A family-run homestay by Marari Beach, Mararikulam, Kerala.
+              A family-run beachside homestay by Marari Beach, Mararikulam, Kerala.
             </p>
           </div>
 

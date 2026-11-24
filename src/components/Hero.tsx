@@ -21,7 +21,7 @@ export function Hero() {
             Marari Beach
           </h1>
           <p className="mt-6 max-w-[46ch] text-lg leading-relaxed text-bone/75">
-            A family-run homestay an 8-minute walk from one of Kerala's finest
+            A family-run beachside homestay an 8-minute walk from one of Kerala's finest
             beaches, built for slow mornings and quiet evenings.
           </p>
 

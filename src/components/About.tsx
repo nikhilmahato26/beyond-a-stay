@@ -25,7 +25,7 @@ export function About() {
             Comfort, Kept Simple
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-ink/70">
-            Mermaid Marari is a small, family-run homestay in Mararikulam,
+            Mermaid Marari is a small, family-run beachside homestay in Mararikulam,
             built around a pristine beach and a slower pace of life. Every
             room is designed for comfort first: private, air-conditioned, and
             just steps from the garden.
